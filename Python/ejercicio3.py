@@ -31,3 +31,7 @@ print("Nivel de Energía:", nivel_energia)
 print("Tiene Capa:", tiene_capa)
 print("Es Visible:", es_visible)
 print("Arma Secreta:", arma_secreta)
+
+print(type(nombre))
+print(type(edad))
+print(type(nivel_energia))
