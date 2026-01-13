@@ -15,3 +15,11 @@ print(ejemplo_comillas_dobles)
 # \' - Comillas simples
 ejemplo_comillas_simples = 'Ella dijo: \'Hola, Mundo!\''
 print(ejemplo_comillas_simples)
+
+# \\ - Barra invertida
+ejemplo_barra_invertida = "Esta es una barra invertida: \\"
+print(ejemplo_barra_invertida)
+
+# Cadenas crudas (raw strings)
+ruta_archivo = r"C:\Usuarios\NombreUsuario\Documentos\archivo.txt"
+print(ruta_archivo)
