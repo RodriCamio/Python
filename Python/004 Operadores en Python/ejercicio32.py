@@ -8,3 +8,6 @@ print(f'Antes de la inversion: a = {a}, b = {b}') # Salida: Antes de la inversio
 a, b = b, a
 print(f'Despues de la inversion: a = {a}, b = {b}') # Salida: Despues de la inversion: a = 10, b = 5
 
+# Recibir multiple  valores de la entrada del usuario.
+nombre, apellido = input("Ingresa tu nombre y apellido separados por comas: ").split(',')
+print(f'Nombre: {nombre.strip()}, Apellido: {apellido.strip()}')
