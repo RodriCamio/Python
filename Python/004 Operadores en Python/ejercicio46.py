@@ -7,8 +7,8 @@
 print('=== Calculo Area y Perimetro de un Rectangulo ===')
 
 # Ingresemos los valores
-BASE = int(input('Ingrese la base: '))
-ALTURA = int(input('Ingrese la altura: '))
+BASE = float(input('Ingrese la base: '))
+ALTURA = float(input('Ingrese la altura: '))
 
 # Creamos constantes
 AREA = BASE * ALTURA
