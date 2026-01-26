@@ -13,7 +13,7 @@ VALOR_MINIMO = 0
 VALOR_MAXIMO = 5
 
 # Solicitamos el numero al usuario
-valor = int(input('\nIngrese un numero: '))
+valor = int(input(f'\nIngrese un numero entre {VALOR_MINIMO} y {VALOR_MAXIMO}: '))
 
 # Respuesta
-print(f'\nEsta dentro del rango?: {0 <= valor <= 5}')
+print(f'\nEsta dentro del rango?: {VALOR_MINIMO <= valor <= VALOR_MAXIMO}')
