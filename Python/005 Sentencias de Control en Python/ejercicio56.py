@@ -5,7 +5,7 @@
 # Sintaxis Operador Ternario
 # resultaro = valor_si_verdadero if condicion else valor_si_falso
 
-# Ejemplo Operador Teernario
+# Ejemplo Operador Ternario
 edad = 18
 es_adulto = 'Si' if edad >= 18 else 'No'
 print(es_adulto) # Salida: Si
